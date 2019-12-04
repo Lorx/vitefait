@@ -1,0 +1,27 @@
+Package: vitefait
+Title: AJ, TR et Visualisations + Quelques fonctions astucieuses
+Version: 0.1.0
+Authors@R: 
+    person(given = "Lewis",
+           family = "Hounkpevi",
+           role = c("aut", "cre"),
+           email = "lhounkpevi@unedic.fr",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Depends: 
+    R (>= 3.5)
+Imports: 
+    dplyr,
+    openxlsx,
+    stackoverflow,
+    utils
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: 
+    knitr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
